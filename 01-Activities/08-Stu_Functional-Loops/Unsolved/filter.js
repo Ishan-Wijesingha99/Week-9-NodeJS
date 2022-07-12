@@ -3,10 +3,7 @@ const originalArray = [1, 3, 2, 5, 10];
 // evenNumbers is equal to a new array of even numbers returned by filter(). filter() will use an anonymous function as a condition. 
 const evenNumbers = originalArray.filter(function(data) {
   // The anonymous function uses a conditional to check if a number is divisible by 2. 
-  if (data % 2 === 0) {
-    // If a number is even (divisible by 2), the condition returns true.
-    return true;
-  }
+  return data % 2
 });
 
 console.log(evenNumbers);
