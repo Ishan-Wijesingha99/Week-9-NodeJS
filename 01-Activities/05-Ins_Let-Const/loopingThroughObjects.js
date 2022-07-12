@@ -10,7 +10,6 @@ const hughObject = {
 // THIS IS HOW YOU LOOP OVER AN OBJECT AND GET ACCESS TO BOTH IT'S KEYS AND VALUES AT THE SAME TIME
 for(const [key, value] of Object.entries(hughObject)) {
     console.log(`${key} --- ${value}`);
-    console.log(i);
 }
 
 
