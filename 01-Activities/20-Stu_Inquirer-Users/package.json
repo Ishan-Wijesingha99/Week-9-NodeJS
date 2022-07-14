@@ -1,6 +1,6 @@
 {
   "name": "20-stu_inquirer-users",
-  "version": "9.0.1",
+  "version": "8.2.4",
   "description": "Work with a partner to implement the following user story:",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^9.0.1"
+    "inquirer": "^8.2.4"
   }
 }
