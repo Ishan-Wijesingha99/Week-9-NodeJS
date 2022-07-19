@@ -27,11 +27,6 @@ inquirer.prompt([
     },
     {
         type: 'input',
-        message: 'What is your LinkedIn URL?',
-        name: 'linkedin'
-    },
-    {
-        type: 'input',
         message: 'What is your GitHub URL?',
         name: 'github'
     },
